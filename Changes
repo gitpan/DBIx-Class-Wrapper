@@ -1,0 +1,71 @@
+==================================================
+Changes from 2013-07-27 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.001 at 2014-07-27 16:14:33 +0000
+------------------------------------------
+
+  Change: 2bdbfc681e6dbbca0b37400450c96f736dba2843
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 17:14:28 +0000
+
+    Ignoring build files 
+
+  Change: 5c3d210d6b2d166a8c9189f2ce1a358796674c0e
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 16:25:10 +0000
+
+    Tested goto 
+
+  Change: 7778b01202f04c175afc90da4c29ab819d7b343e
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 16:16:36 +0000
+
+    Tested overriding of _build_dbic_factory_baseclass 
+
+  Change: 0294e3af71e08fcd29f1e5254fa4cf3ddf7843b4
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:56:16 +0000
+
+    Added missing DBIx::Class::Schema::Loader 
+
+  Change: 6b79980282b0d2b539b8f1d05e227fe2dc6f8baf
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:51:55 +0000
+
+    Added dependency 
+
+  Change: d5d7560914390b341fa47d927ec9eabfb774bde9
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:48:27 +0000
+
+    Added travis 
+
+  Change: 5c1868c1a4fc33a17b3c98e0376a5b6957c326eb
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:46:01 +0000
+
+    Bit of cleanup 
+
+  Change: c3d37ab6650fd0a257152ecd83d78340f6258855
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:41:59 +0000
+
+    Removed any reference to JCOM 
+
+  Change: e64330ce4f5734f7644405b93c9a24b5e4b5f1fd
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:37:45 +0000
+
+    Tests pass just fine 
+
+  Change: 0994a86ecf6103f256073b2db32a5b4370f26037
+  Author: Jerome Eteve <jerome@eteve.net>
+  Date : 2014-07-27 15:15:54 +0000
+
+    Imported code 
+
+================
+End of releases.
+================
