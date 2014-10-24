@@ -1,9 +1,31 @@
 ==================================================
-Changes from 2013-07-27 00:00:00 +0000 to present.
+Changes from 2013-10-24 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2014-07-27 16:14:33 +0000
+version 0.002 at 2014-10-24 11:17:44 +0000
+------------------------------------------
+
+  Change: 9154306a10348b7b8f28a9e3d81b4aea19d6b9ff
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-10-24 12:15:15 +0000
+
+    Added build status 
+
+  Change: 9523e4a77b55d2ca7072d38e64e13bf0fe09a1bf
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-10-24 12:10:46 +0000
+
+    No travis for perl 5.8 
+
+  Change: 0c6ae72a2ffd425d0688b4ec467cf0154a63f4a2
+  Author: Jerome Eteve <jerome@broadbean.com>
+  Date : 2014-10-24 12:02:56 +0000
+
+    Compatible with perl 5.8 
+
+------------------------------------------
+version 0.001 at 2014-07-27 16:14:28 +0000
 ------------------------------------------
 
   Change: 2bdbfc681e6dbbca0b37400450c96f736dba2843

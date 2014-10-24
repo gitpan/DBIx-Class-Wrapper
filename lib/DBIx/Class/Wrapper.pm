@@ -1,5 +1,8 @@
 package DBIx::Class::Wrapper;
-$DBIx::Class::Wrapper::VERSION = '0.001';
+{
+  $DBIx::Class::Wrapper::VERSION = '0.002';
+}
+
 use Moose::Role;
 use Moose::Meta::Class;
 use Module::Pluggable::Object;
@@ -9,6 +12,13 @@ use Class::Load;
 
 DBIx::Class::Wrapper - A Moose role to allow your business model to wrap business code around a dbic model.
 
+=head1 BUILD STATUS
+
+=begin html
+
+<a href="https://travis-ci.org/jeteve/DBIx-Class-Wrapper"><img src="https://travis-ci.org/jeteve/DBIx-Class-Wrapper.svg?branch=master"></a>
+
+=end html
 
 =head1 SYNOPSIS
 
@@ -154,7 +164,9 @@ usage:
 
 sub dbic_factory{
   my ($self , $name , $init_args ) = @_;
-  $init_args //= {};
+  unless( defined $init_args ){
+      $init_args = {};
+  }
   unless( $name ){
     confess("Missing name in call to dbic_factory");
   }

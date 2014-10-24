@@ -3,22 +3,22 @@ abstract: 'Wrap your business code around your DBIx::Class Schema.'
 author:
   - 'Jerome Eteve <jerome.eteve@gmail.com>'
 build_requires:
-  DBIx::Class::Schema::Loader: '0'
+  DBIx::Class::Schema::Loader: 0
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170'
+generated_by: 'Dist::Zilla version 5.009, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: DBIx-Class-Wrapper
 requires:
-  Class::Load: '0'
-  DBI: '0'
-  DBIx::Class: '0'
-  Moose: '0'
+  Class::Load: 0
+  DBI: 0
+  DBIx::Class: 0
+  Moose: 0
 resources:
   homepage: https://github.com/jeteve/DBIx-Class-Wrapper
   repository: https://github.com/jeteve/DBIx-Class-Wrapper.git
-version: '0.001'
+version: 0.002
