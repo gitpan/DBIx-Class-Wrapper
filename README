@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution DBIx-Class-Wrapper,
-version 0.002:
+version 0.003:
 
   Wrap your business code around your DBIx::Class Schema.
 

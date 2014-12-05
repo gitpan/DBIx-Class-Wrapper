@@ -1,6 +1,6 @@
 package DBIx::Class::Wrapper::FactoryBase;
 {
-  $DBIx::Class::Wrapper::FactoryBase::VERSION = '0.002';
+  $DBIx::Class::Wrapper::FactoryBase::VERSION = '0.003';
 }
 
 use Moose;

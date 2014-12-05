@@ -1,6 +1,6 @@
 package DBIx::Class::Wrapper::Factory;
 {
-  $DBIx::Class::Wrapper::Factory::VERSION = '0.002';
+  $DBIx::Class::Wrapper::Factory::VERSION = '0.003';
 }
 
 use Moose;
@@ -56,6 +56,20 @@ sub build_dbic_rs{
   return $resultset;
 }
 
+
+=head2 new_result
+
+Instanciate a new NOT INSERTED IN DB row and wrap it using
+the wrap method.
+
+See L<DBIx::Class::ResultSet::new_result>
+
+=cut
+
+sub new_result{
+    my ($self, $args) = @_;
+    return $self->wrap($self->dbic_rs->new_result($args));
+}
 
 =head2 create
 

@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: https://github.com/jeteve/DBIx-Class-Wrapper
   repository: https://github.com/jeteve/DBIx-Class-Wrapper.git
-version: 0.002
+version: 0.003
