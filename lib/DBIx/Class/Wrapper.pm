@@ -1,6 +1,6 @@
 package DBIx::Class::Wrapper;
 {
-  $DBIx::Class::Wrapper::VERSION = '0.003';
+  $DBIx::Class::Wrapper::VERSION = '0.004';
 }
 
 use Moose::Role;

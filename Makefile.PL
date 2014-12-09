@@ -21,15 +21,16 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "DBIx::Class::Wrapper",
   "PREREQ_PM" => {
-    "Class::Load" => 0,
-    "DBI" => 0,
-    "DBIx::Class" => 0,
-    "Moose" => 0
+    "Class::Load" => "0.20",
+    "DBI" => "1.63",
+    "DBIx::Class" => "0.08250",
+    "Module::Pluggable" => "4.0",
+    "Moose" => "2.1205"
   },
   "TEST_REQUIRES" => {
-    "DBIx::Class::Schema::Loader" => 0
+    "DBIx::Class::Schema::Loader" => "0.07039"
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,11 +38,12 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Class::Load" => 0,
-  "DBI" => 0,
-  "DBIx::Class" => 0,
-  "DBIx::Class::Schema::Loader" => 0,
-  "Moose" => 0
+  "Class::Load" => "0.20",
+  "DBI" => "1.63",
+  "DBIx::Class" => "0.08250",
+  "DBIx::Class::Schema::Loader" => "0.07039",
+  "Module::Pluggable" => "4.0",
+  "Moose" => "2.1205"
 );
 
 

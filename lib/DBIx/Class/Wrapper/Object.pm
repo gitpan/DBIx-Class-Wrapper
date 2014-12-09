@@ -1,6 +1,6 @@
 package DBIx::Class::Wrapper::Object;
 {
-  $DBIx::Class::Wrapper::Object::VERSION = '0.003';
+  $DBIx::Class::Wrapper::Object::VERSION = '0.004';
 }
 
 use Moose;
